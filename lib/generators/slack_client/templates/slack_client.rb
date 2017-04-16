@@ -7,6 +7,7 @@ class <%= class_name %> < NekonekoSlackOnRails::Client
   hear /私は.*です/, :my_regexp_method
 
   def my_hello_method
+    # 処理を書く
     puts "Somebody said 'hello'"
   end
 
