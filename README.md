@@ -41,3 +41,8 @@ rails server
 1. `$(RAILS_ROOT)/app/slack_clients/hoge.rb` に処理を書く！
 1. Railsサーバーを起動し、作成したbotのいるルームで話しかける
 1. 設定したメソッドの処理が実行される！！
+
+## XXX:
+
+springが効いている場合、clientが複数立ち上がることがある？
+その場合は `spring kill` する
