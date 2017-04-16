@@ -1,0 +1,8 @@
+Description:
+    Create the slack_client.
+
+Example:
+    rails generate slack_client neko
+
+    This will create:
+        app/slack_clients/neko.rb
